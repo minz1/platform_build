@@ -124,8 +124,11 @@ Usage:  ota_from_target_files [flags] input_target_files output_ota_package
 
   --payload_signer_args <args>
       Specify the arguments needed for payload signer.
+
   --override_device <device>
       Override device-specific asserts. Can be a comma-separated list.
+"""
+
 import sys
 
 if sys.hexversion < 0x02070000:
